@@ -365,6 +365,7 @@ html {
 }
 
 #menu {
+  z-index: 2;
   position: fixed;
   padding: 5px;
   top: 1rem;
