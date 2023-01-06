@@ -454,6 +454,7 @@ border-color: #0a192f;
   }
 
   .navigation.active {
+    z-index: 1;
     right: 0rem;
   }
 
