@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
     <nav id="nav" class="navigation">
         <ul>
-            <li><a class="homeLink" href="#home">Accueil</a></li>
-            <li><a class="aboutLink" href="#aboutSection">A propos</a></li>
-            <li><a class="navLinks" href="#skill">Skill</a></li>
-            <li><a class="navLinks" href="#projets">Projets</a></li>
-            <li><a class="navLinks" href="">Contact</a></li>
+            <li><a id="homeLink" href="#home">Accueil</a></li>
+            <li><a id="aboutLink" href="#aboutSection">A propos</a></li>
+            <li><a id="skillLink" href="#skill">Skill</a></li>
+            <li><a id="projetsLink" href="#projets">Projets</a></li>
+            <li><a id="contactLink" href="">Contact</a></li>
             <li><ion-icon id="light" name="sunny-outline"></ion-icon></li>
         </ul>
     </nav>
@@ -28,7 +29,7 @@
             <img src="./assets/img/grossetête.png" height="150" alt="">
             <div class="headerText">
                 <p>Bonjour, je m'appelle</p>
-                <h1>LIPKA VALENTIN</h1>
+                <h1 id="textBonjour">LIPKA VALENTIN</h1>
                 <h2>Je souhaite devenir Développeur Web</h2>
                 <a href="#projets" class="button">Voir mes projets <ion-icon name="arrow-forward-outline"></ion-icon></a>
             </div>
@@ -74,6 +75,10 @@
                     <a href="#projets" class="button">Accéder<ion-icon name="arrow-forward-outline"></ion-icon></a>
                 </div>
             </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="color1">Contact</h2>
+            <p class="color2">Facebook : Valentin Lipka</p>
         </section>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

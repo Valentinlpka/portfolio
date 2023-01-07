@@ -208,10 +208,22 @@ header {
 }
 
 header p {
+  animation: title 1s ease 0s 1 normal forwards;
+
   padding-bottom: 15px;
   color: #95a899;
 }
+@keyframes title {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
 
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 header h1 {
   padding-bottom: 15px;
   font-size: 4.5rem;
@@ -326,9 +338,9 @@ header h2 {
 }
 
 .projets {
-  height: 300px;
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .projets h2 {
@@ -338,6 +350,14 @@ header h2 {
   text-underline-offset: 1rem;
   margin-bottom: 50px;
   color: #d8ddef;
+}
+
+.contact h2 {
+  font-size: 2.4rem;
+  text-decoration: underline;
+  text-decoration-color: #95a899;
+  text-underline-offset: 1rem;
+  margin-bottom: 50px;
 }
 .projet-card {
   display: flex;
@@ -434,6 +454,10 @@ border-color: #0a192f;
   bottom: 0;
 }
 
+.contact {
+  margin:0 auto;
+  max-width: 1200px;
+}
 @media (max-width: 768px) {
   .navigation {
     position: fixed;
