@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <nav id="nav" class="navigation">
-        <ul>
+    <nav id="nav" class="navigation flex">
+        <ul class="flex">
             <li><a id="homeLink" href="#home">Accueil</a></li>
             <li><a id="aboutLink" href="#aboutSection">A propos</a></li>
             <li><a id="skillLink" href="#skill">Skill</a></li>
@@ -25,60 +25,62 @@
         <div></div>
     </div>
     <div class="scroll">
-        <header class="accueil" id="home">
+        <header class="accueil container flex" id="home">
             <img src="./assets/img/grossetête.png" height="150" alt="">
             <div class="headerText">
                 <p>Bonjour, je m'appelle</p>
                 <h1 id="textBonjour">LIPKA VALENTIN</h1>
-                <h2>Je souhaite devenir Développeur Web</h2>
-                <a href="#projets" class="button">Voir mes projets <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                <h3>Je souhaite devenir Développeur Web</h3>
+                <a href="#projets" class="button flex">Voir mes projets <ion-icon name="arrow-forward-outline"></ion-icon></a>
             </div>
         </header>
-        <section class="a-propos" id="aboutSection">
+        <section class="a-propos container flex" id="aboutSection">
             <h2 class="color1">À propos</h2>
             <p class="color2">Je suis passionné par le développement web et j'aime travailler sur des projets qui me
                 permettent de mettre en pratique mes compétences et de m'améliorer constamment.</p>
         </section>
-        <section id="skill" class="skill">
+        <section id="skill" class="skill container">
             <h2 class="color1">Skill</h2>
-            <div class="cards">
-                <div class="card">
+            <div class="cards flex">
+                <div class="card flex">
                     <img src="./assets/img/html.png" alt="">
                     <p>HTML</p>
                 </div>
-                <div class="card">
+                <div class="card flex">
                     <img src="./assets/img/CSS.png" alt="">
                     <p>CSS</p>
                 </div>
-                <div class="card">
+                <div class="card flex">
                     <img src="./assets/img/JAVASCRIPT.png" alt="">
                     <p>JAVASCRIPT</p>
                 </div>
             </div>
         </section>
-        <section id="projets" class="projets">
+        <section id="projets" class="projets container">
             <h2 class="color1">Mes projets</h2>
-            <div class="projets-cards">
-                <div class="projet-card">
+            <div class="projets-cards flex">
+                <div class="projet-card flex">
                     <img src="./assets/img/morpion.png" height="200" alt="">
                     <p>Morpion</p>
-                    <a href="#projets" class="button">Accéder<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <a href="#projets" class="button flex">Accéder<ion-icon name="arrow-forward-outline"></ion-icon></a>
                 </div>
-                <div class="projet-card">
+                <div class="projet-card flex">
                     <img src="./assets/img/morpion.png" height="200" alt="">
                     <p>Morpion</p>
-                    <a href="#projets" class="button">Accéder<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <a href="#projets" class="button flex">Accéder<ion-icon name="arrow-forward-outline"></ion-icon></a>
                 </div>
-                <div class="projet-card">
+                <div class="projet-card flex">
                     <img src="./assets/img/morpion.png" height="200" alt="">
                     <p>Morpion</p>
-                    <a href="#projets" class="button">Accéder<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <a href="#projets" class="button flex">Accéder<ion-icon name="arrow-forward-outline"></ion-icon></a>
                 </div>
             </div>
         </section>
-        <section id="contact" class="contact">
+        <section id="contact" class="contact container">
             <h2 class="color1">Contact</h2>
             <p class="color2">Facebook : Valentin Lipka</p>
+            <p class="color2">Snapchat : Valentinlpk </p>
+            <p class="color2">Téléphone perso :) : 06.19.07.08.16 </p>
         </section>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
