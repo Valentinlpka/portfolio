@@ -1,128 +1,162 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 .retour {
-    text-decoration: none;
-    color:white;
+  text-decoration: none;
+  color: white;
 }
 
 .retour:hover {
-    text-decoration: underline;
-    transition: 0.3s;
+  text-decoration: underline;
+  transition: 0.3s;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
 input[type="text" i] {
-    padding: 1px 5px;
+  padding: 1px 5px;
+  display: block;
+  font-size: 1.125rem;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 body {
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    background: rgb(10, 25, 47);
-    justify-content: center;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background: rgb(10, 25, 47);
+  justify-content: center;
 }
 
 .color1 {
-    color: rgb(216, 221, 239);
+  color: rgb(216, 221, 239);
 }
 
 header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 input[type="text"] {
-    font-size:16px;}
+  font-size: 16px;
+}
 .input {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
 }
 
 .todolist {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    background: rgba(10, 25, 47, 0.603);
-    padding: 1rem 0;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background: rgba(10, 25, 47, 0.603);
+  padding: 1rem 3rem;
 }
 
 .list {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0px 30px;
-    border: 1px solid #d8ddef;
-    border-radius: 0.3rem;
-    gap: 1rem;
-    max-width: 80%;
-    color: #d8ddef;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d8ddef;
+  border-radius: 0.3rem;
+  gap: 1rem;
+  color: #d8ddef;
+}
+
+.list p {
+  padding-left: 1rem;
 }
 
 .valider {
-    background: green;
-    color: #d8ddef;
-    border: none;
-    width: 5rem;
-    height: 1.5rem;
-    border-radius: 0%;
+  font-size: 16px;
+  font-weight: 600;
+  background: green;
+  color: #d8ddef;
+  border: none;
+  height: 2.4rem;
+  border-radius: 0.3rem;
+}
+.valider:hover {
+  background: #1dc35d;
+  transition: 0.4s;
 }
 
 #texte {
-    border-radius: 0% !important;
-    border: none;
-    outline: none;
-    cursor: text;
+  border: none;
+  outline: none;
+  cursor: text;
 }
 
 .form {
-    display:flex;
+  display: flex;
 }
 
 .delete {
-    right: .5rem;
-    color:red;
-    font-size:1rem;
-    font-weight: bold;
-    border-color:red;
-    border-style: solid;
-    background:white;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-color: #fff;
+  border-style: solid;
+  background: transparent;
+  border: 2px solid;
+  border-radius: 0.3rem;
+}
+
+.delete:hover{
+  color:#d92b50;
+  transition:0.3S
 }
 
 .validate {
-    right: 3rem;
-    color:green;
-    font-size:1rem;
-    font-weight: bold;
-    border-color:green;
-    border-style: solid;
-    background:white;
+  cursor: pointer;
+  right: 3rem;
+  color: green;
+  font-size: 1rem;
+  font-weight: bold;
+  border-color: green;
+  border-style: solid;
+  background: white;
 }
 
 .souligne {
-    text-decoration: line-through;
+  background-color: green;
 }
 
 .menu {
-    position: fixed;
-    padding: 2rem;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    display: flex;
-    align-items: center;
-    padding-left: 5%;
-    background:rgb(10, 25, 47);
-    z-index: 1;
-    border-bottom:.1rem solid white;
+  position: fixed;
+  padding: 2rem;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  background: rgb(10, 25, 47);
+  z-index: 1;
+  border-bottom: 0.1rem solid white;
+}
+
+form {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  padding: 0 3rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    width: 70%;
+  }
 }
