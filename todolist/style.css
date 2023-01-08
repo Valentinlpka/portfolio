@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+.retour {
+    position: absolute;
+    top:2rem;
+    left:2rem;
+    text-decoration: none;
+    color:white;
+}
+
+.retour:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type="text" i] {
+    padding: 1px 5px;
+}
+
+body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(10, 25, 47);
+    justify-content: center;
+}
+
+.color1 {
+    color: rgb(216, 221, 239);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background: rgba(10, 25, 47, 0.603);
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.list {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    border: 1px solid #d8ddef;
+    border-radius: 0.3rem;
+    gap: 1rem;
+    max-width: 80%;
+    color: #d8ddef;
+}
+
+.valider {
+    background: green;
+    color: #d8ddef;
+    border: none;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 0%;
+}
+
+#texte {
+    border-radius: 0% !important;
+    border: none;
+    outline: none;
+    cursor: text;
+}
+
+.form {
+    display:flex;
+}
+
+.delete {
+    right: .5rem;
+    color:red;
+    font-size:1rem;
+    font-weight: bold;
+    border-color:red;
+    border-style: solid;
+    background:white;
+}
+
+.validate {
+    right: 3rem;
+    color:green;
+    font-size:1rem;
+    font-weight: bold;
+    border-color:green;
+    border-style: solid;
+    background:white;
+}
+
+.souligne {
+    text-decoration: line-through;
+}
