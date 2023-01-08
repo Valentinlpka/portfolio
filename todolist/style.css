@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 .retour {
-    position: absolute;
-    top:2rem;
-    left:2rem;
     text-decoration: none;
     color:white;
 }
@@ -114,4 +111,18 @@ input[type="text"] {
 
 .souligne {
     text-decoration: line-through;
+}
+
+.menu {
+    position: fixed;
+    height: 59px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    background:rgb(10, 25, 47);
+    z-index: 1;
+    border-bottom:.1rem solid white;
 }
