@@ -212,7 +212,9 @@ a {
   background: white;
 }
 .light #menu {
-  border-color: #0a192f;
+    border-color: #0a192f;
+    color: #0a192f;
+    background: white;
 }
 
 .light #menu > div::before {
@@ -386,7 +388,7 @@ header h3 {
     left: auto;
     right: -18rem;
     height: 100%;
-    width: 25%;
+    width: 35%;
     align-items: center;
     justify-content: center;
     padding: 0;
