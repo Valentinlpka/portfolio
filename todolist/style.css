@@ -115,7 +115,7 @@ input[type="text"] {
 
 .menu {
     position: fixed;
-    height: 59px;
+    padding: 2rem;
     width: 100%;
     top: 0%;
     left: 0%;
