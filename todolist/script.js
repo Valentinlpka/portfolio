@@ -9,12 +9,17 @@ validate.addEventListener("click", (event) => {
   } else {
     taskList = localItems;
   }
-  taskList.push(input.value);
-  localStorage.setItem("localItem", JSON.stringify(taskList));
-  showlist();
-  event.preventDefault();
+  if (input.value != ''  ) {
+    taskList.push(input.value);
+    localStorage.setItem("localItem", JSON.stringify(taskList));
+    showlist();
+    event.preventDefault();
+  
+    input.value = "";
+  } else {
+    alert('Il faut remplir le champ texte')
+  }
 
-  input.value = "";
 });
 
 function showlist() {
