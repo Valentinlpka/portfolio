@@ -84,6 +84,7 @@ input[type="text"] {
   border: none;
   height: 2.4rem;
   border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
 }
 .valider:hover {
   background: #1dc35d;
